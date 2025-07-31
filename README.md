@@ -13,7 +13,7 @@ Menganalisis data penjualan sepeda dari 3 toko cabang untuk mendapatkan insight 
 
 ## 📊 Dataset
 [Sumber data](https://www.sqlservertutorial.net/getting-started/load-sample-database/) + deskripsi singkat (berapa baris, kolom, dll)
-
+- 'ERD_Database.jpg'
 ## 🔍 Analysis
 Deskripsikan pendekatan analisis kamu: EDA, visualisasi, model jika ada.
 
