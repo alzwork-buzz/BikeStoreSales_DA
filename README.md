@@ -12,8 +12,15 @@ Menganalisis data penjualan sepeda dari 3 toko cabang untuk mendapatkan insight 
 - **Power BI**: Dashboard interaktif
 
 ## 📊 Dataset
-[Sumber data](https://www.sqlservertutorial.net/getting-started/load-sample-database/) + deskripsi singkat (berapa baris, kolom, dll)
-![Alt Text](https://github.com/alzwork-buzz/BikeStoreSales_DA/blob/main/ERD_Database.JPG)
+Analisis ini menggunakan data yang berasal dari SQL Server Tutorial – Sample Database. Dataset ini merupakan database BikeStores, yang berisi informasi terkait toko sepeda, produk, pelanggan, penjualan, dan pegawai.
+Database ini terdiri dari beberapa tabel utama dengan struktur sebagai berikut:
+- Total 9 tabel yang tersebar dalam dua skema: sales dan production.
+- Tiap tabel memiliki jumlah kolom yang bervariasi, mulai dari 2 hingga 9 kolom.
+- Proses analisis akan menggunakan query SQL untuk menampilkan kolom-kolom yang relevan.
+- Total data yang digunakan untuk visualisasi berjumlah 4.722 baris.\
+
+Struktur relasi antar tabel dapat dilihat pada diagram ERD di bawah:
+<img src="https://github.com/alzwork-buzz/BikeStoreSales_DA/blob/main/ERD_Database.JPG" alt="ERD BikeStores" width="700"/>
 
 ## 🔍 Analysis
 Deskripsikan pendekatan analisis kamu: EDA, visualisasi, model jika ada.
