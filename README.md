@@ -20,7 +20,7 @@ Database ini terdiri dari beberapa tabel utama dengan struktur sebagai berikut:
 - Total data yang digunakan untuk visualisasi berjumlah 4.722 baris.\
 
 Struktur relasi antar tabel dapat dilihat pada diagram ERD di bawah:
-![ERD](https://raw.githubusercontent.com/alzwork-buzz/BikeStoreSales_DA/main/ERD_Database.JPG)
+![](https://raw.githubusercontent.com/alzwork-buzz/BikeStoreSales_DA/main/ERD_Database.JPG)
 
 ## 🔍 Analysis
 Deskripsikan pendekatan analisis kamu: EDA, visualisasi, model jika ada.
