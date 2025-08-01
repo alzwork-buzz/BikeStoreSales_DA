@@ -20,8 +20,6 @@ Database ini terdiri dari beberapa tabel utama dengan struktur sebagai berikut:
 - Total data yang digunakan untuk visualisasi berjumlah 4.722 baris.\
 
 Struktur relasi antar tabel dapat dilihat pada diagram ERD di bawah:
-<img src="https://github.com/alzwork-buzz/BikeStoreSales_DA/blob/main/ERD_Database.JPG" alt="ERD BikeStores" width="700"/>
-<img src="https://raw.githubusercontent.com/alzwork-buzz/BikeStoreSales_DA/main/ERD_Database.JPG" alt="ERD" width="700"/>
 ![ERD](https://raw.githubusercontent.com/alzwork-buzz/BikeStoreSales_DA/main/ERD_Database.JPG)
 
 ## 🔍 Analysis
