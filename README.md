@@ -17,12 +17,23 @@ Database ini terdiri dari beberapa tabel utama dengan struktur sebagai berikut:
 - Total 9 tabel yang tersebar dalam dua skema: sales dan production.
 - Tiap tabel memiliki jumlah kolom yang bervariasi, mulai dari 2 hingga 9 kolom.
 - Proses analisis akan menggunakan query SQL untuk menampilkan kolom-kolom yang relevan.
-- Total data yang digunakan untuk visualisasi berjumlah 4.722 baris.\
+- Total data yang digunakan untuk visualisasi berjumlah 4.722 baris.
 
 Struktur relasi antar tabel dapat dilihat pada diagram ERD di bawah:
 ![](https://raw.githubusercontent.com/alzwork-buzz/BikeStoreSales_DA/main/ERD_Database.JPG)
 
 ## 🔍 Analysis
+**1. Data Preparation**\
+Tahap awal dilakukan dengan menyusun query SQL untuk menggabungkan beberapa tabel yang relevan dalam database BikeStores, seperti sales.orders, sales.order_items, production.products, dan sales.customers. Tujuan dari query ini adalah untuk memilih kolom-kolom yang dibutuhkan guna membentuk dataset baru yang siap dianalisis dan divisualisasikan. Proses ini mencakup:
+  - Melakukan JOIN antar tabel.
+  - Memilih kolom-kolom penting seperti tanggal pemesanan, nama produk, nama toko, wilayah pelanggan, dan kolom lain yang         mendukung analisis.
+
+Berikut ini adalah query SQL yang digunakan:
+![](https://raw.githubusercontent.com/alzwork-buzz/BikeStoreSales_DA/main/ERD_Database.JPG)
+![](https://raw.githubusercontent.com/alzwork-buzz/BikeStoreSales_DA/main/ERD_Database.JPG)
+
+**2. Exploratory Data Analysis (EDA)**\
+**3. Data Visualization**\
 Deskripsikan pendekatan analisis kamu: EDA, visualisasi, model jika ada.
 
 ## 📎 Results
