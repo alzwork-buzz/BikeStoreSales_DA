@@ -21,6 +21,8 @@ Database ini terdiri dari beberapa tabel utama dengan struktur sebagai berikut:
 
 Struktur relasi antar tabel dapat dilihat pada diagram ERD di bawah:
 <img src="https://github.com/alzwork-buzz/BikeStoreSales_DA/blob/main/ERD_Database.JPG" alt="ERD BikeStores" width="700"/>
+<img src="https://raw.githubusercontent.com/alzwork-buzz/BikeStoreSales_DA/main/ERD_Database.JPG" alt="ERD" width="700"/>
+
 
 ## 🔍 Analysis
 Deskripsikan pendekatan analisis kamu: EDA, visualisasi, model jika ada.
