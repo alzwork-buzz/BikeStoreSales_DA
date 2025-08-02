@@ -29,10 +29,10 @@ Tahap awal dilakukan dengan menyusun query SQL untuk menggabungkan beberapa tabe
   - Memilih kolom-kolom penting seperti tanggal pemesanan, nama produk, nama toko, wilayah pelanggan, dan kolom lain yang         mendukung analisis.
 
 Berikut ini adalah query SQL yang digunakan:\
-![](https://github.com/alzwork-buzz/BikeStoreSales_DA/blob/main/QuerySQL.JPG)
+![](https://raw.githubusercontent.com/alzwork-buzz/BikeStoreSales_DA/main/QuerySQL.JPG)
 
 Berikut ini output yang dihasilkan dari eksekusi query SQL:
-![](https://github.com/alzwork-buzz/BikeStoreSales_DA/blob/main/Output_SQL.JPG)
+![](https://raw.githubusercontent.com/alzwork-buzz/BikeStoreSales_DA/main/Output_SQL.JPG)
 
 **2. Exploratory Data Analysis (EDA)**\
 **3. Data Visualization**\
