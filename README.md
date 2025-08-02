@@ -26,7 +26,7 @@ Struktur relasi antar tabel dapat dilihat pada diagram ERD di bawah:
 **1. Data Preparation**\
 Tahap awal dilakukan dengan menyusun query SQL untuk menggabungkan beberapa tabel yang relevan dalam database BikeStores, seperti sales.orders, sales.order_items, production.products, dan sales.customers. Tujuan dari query ini adalah untuk memilih kolom-kolom yang dibutuhkan guna membentuk dataset baru yang siap dianalisis dan divisualisasikan. Proses ini mencakup:
   - Melakukan JOIN antar tabel.
-  - Memilih kolom-kolom penting seperti tanggal pemesanan, nama produk, nama toko, wilayah pelanggan, dan kolom lain yang         mendukung analisis.
+  - Memilih kolom-kolom penting seperti tanggal pemesanan, nama produk, nama toko, wilayah pelanggan, dan kolom lain yang mendukung analisis.
 
 Berikut ini adalah query SQL yang digunakan:\
 ![](https://raw.githubusercontent.com/alzwork-buzz/BikeStoreSales_DA/main/QuerySQL.JPG)
@@ -35,6 +35,7 @@ Berikut ini output yang dihasilkan dari eksekusi query SQL:
 ![](https://raw.githubusercontent.com/alzwork-buzz/BikeStoreSales_DA/main/Output_SQL.JPG)
 
 **2. Exploratory Data Analysis (EDA)**\
+
 **3. Data Visualization**\
 Deskripsikan pendekatan analisis kamu: EDA, visualisasi, model jika ada.
 
