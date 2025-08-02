@@ -36,8 +36,11 @@ Berikut ini output yang dihasilkan dari eksekusi query SQL:
 
 **2. Exploratory Data Analysis (EDA)**\
 Pada tahap EDA, dilakukan pemeriksaan terhadap data menggunakan Excel untuk mendeteksi apakah terdapat missing value dan duplicate. Namun, penggunaan Excel untuk keperluan ini sebenarnya kurang efisien. Sebagai alternatif, pemeriksaan missing value dapat dilakukan menggunakan SQL dengan menerapkan sintaks IS NULL, sedangkan untuk mendeteksi duplikat dapat digunakan perintah DISTINCT di SQL atau fitur Remove Duplicates di Excel.
+
 Pemindahan data hasil query dari SQL ke Excel dapat dilakukan dengan memanfaatkan fitur Get Data pada Excel. Langkah ini melibatkan koneksi ke database lokal, kemudian memasukkan query SQL secara langsung melalui antarmuka yang disediakan.
+
 berikut ini hasil dari pemindahan data hasil query SQL ke Excel:
+![](https://raw.githubusercontent.com/alzwork-buzz/BikeStoreSales_DA/main/excel.JPG)
 
 **3. Data Visualization**\
 Deskripsikan pendekatan analisis kamu: EDA, visualisasi, model jika ada.
