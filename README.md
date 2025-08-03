@@ -23,7 +23,7 @@ Struktur relasi antar tabel dapat dilihat pada diagram ERD di bawah:
 ![](https://raw.githubusercontent.com/alzwork-buzz/BikeStoreSales_DA/main/ERD_Database.JPG)
 
 ## 🔍 Analysis
-**1. Data Preparation**\
+### 1. Data Preparation
 Tahap awal dilakukan dengan menyusun query SQL untuk menggabungkan beberapa tabel yang relevan dalam database BikeStores, seperti sales.orders, sales.order_items, production.products, dan sales.customers. Tujuan dari query ini adalah untuk memilih kolom-kolom yang dibutuhkan guna membentuk dataset baru yang siap dianalisis dan divisualisasikan. Proses ini mencakup:
   - Melakukan JOIN antar tabel.
   - Memilih kolom-kolom penting seperti tanggal pemesanan, nama produk, nama toko, wilayah pelanggan, dan kolom lain yang mendukung analisis.
@@ -34,7 +34,7 @@ Berikut ini adalah query SQL yang digunakan:\
 Berikut ini output yang dihasilkan dari eksekusi query SQL:
 ![](https://raw.githubusercontent.com/alzwork-buzz/BikeStoreSales_DA/main/Output_SQL.JPG)
 
-**2. Exploratory Data Analysis (EDA)**\
+### 2. Exploratory Data Analysis (EDA)
 Pada tahap EDA, dilakukan pemeriksaan terhadap data menggunakan Excel untuk mendeteksi apakah terdapat missing value dan duplicate. Namun, penggunaan Excel untuk keperluan ini sebenarnya kurang efisien. Sebagai alternatif, pemeriksaan missing value dapat dilakukan menggunakan SQL dengan menerapkan sintaks IS NULL, sedangkan untuk mendeteksi duplikat dapat digunakan perintah DISTINCT di SQL atau fitur Remove Duplicates di Excel.
 
 Pemindahan data hasil query dari SQL ke Excel dapat dilakukan dengan memanfaatkan fitur Get Data pada Excel. Langkah ini melibatkan koneksi ke database lokal, kemudian memasukkan query SQL secara langsung melalui antarmuka yang disediakan.
@@ -42,8 +42,16 @@ Pemindahan data hasil query dari SQL ke Excel dapat dilakukan dengan memanfaatka
 berikut ini hasil dari pemindahan data hasil query SQL ke Excel:
 ![](https://raw.githubusercontent.com/alzwork-buzz/BikeStoreSales_DA/main/excel.JPG)
 
-**3. Data Visualization**\
-Deskripsikan pendekatan analisis kamu: EDA, visualisasi, model jika ada.
+### 3. Data Visualization
+#### 1. Excel
+- Data divisualisasikan menggunakan **PivotTable** untuk menganalisis dan merangkum data.
+- Kemudian, dibuat **PivotChart** untuk menampilkan visualisasi grafis dari hasil PivotTable.
+- Dashboard interaktif dibuat dengan menambahkan fitur **Slicer** yang memungkinkan pengguna memilih filter berdasarkan waktu dan wilayah.
+
+#### 2. Power BI
+- Data diimpor ke Power BI untuk analisis lebih lanjut.
+- Visualisasi dibuat menggunakan berbagai jenis grafik seperti bar chart, line chart, dan peta (map visual).
+- Dashboard interaktif dilengkapi dengan **Slicer** untuk filter dinamis berdasarkan dimensi waktu dan wilayah.
 
 ## 📎 Results
 - Temuan penting
