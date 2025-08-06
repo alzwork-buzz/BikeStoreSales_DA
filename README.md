@@ -53,6 +53,7 @@ berikut ini hasil dari pemindahan data hasil query SQL ke Excel:
 - Data diimpor ke Power BI untuk analisis lebih lanjut.
 - Visualisasi dibuat menggunakan berbagai jenis grafik seperti bar chart, line chart, dan peta (map visual).
 - Dashboard interaktif dilengkapi dengan **Slicer** untuk filter dinamis berdasarkan dimensi waktu dan wilayah.
+![](https://raw.githubusercontent.com/alzwork-buzz/BikeStoreSales_DA/main/dashboard_powerbi.JPG)
 
 ## 📎 Results
 - Temuan penting
