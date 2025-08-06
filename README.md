@@ -47,7 +47,7 @@ berikut ini hasil dari pemindahan data hasil query SQL ke Excel:
 - Data divisualisasikan menggunakan **PivotTable** untuk menganalisis dan merangkum data.
 - Kemudian, dibuat **PivotChart** untuk menampilkan visualisasi grafis dari hasil PivotTable.
 - Dashboard interaktif dibuat dengan menambahkan fitur **Slicer** yang memungkinkan pengguna memilih filter berdasarkan waktu dan wilayah.
-
+![](https://raw.githubusercontent.com/alzwork-buzz/BikeStoreSales_DA/main/dashboard%20excel.JPG)
 
 #### 2. Power BI
 - Data diimpor ke Power BI untuk analisis lebih lanjut.
