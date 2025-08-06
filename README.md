@@ -48,6 +48,7 @@ berikut ini hasil dari pemindahan data hasil query SQL ke Excel:
 - Kemudian, dibuat **PivotChart** untuk menampilkan visualisasi grafis dari hasil PivotTable.
 - Dashboard interaktif dibuat dengan menambahkan fitur **Slicer** yang memungkinkan pengguna memilih filter berdasarkan waktu dan wilayah.
 
+
 #### 2. Power BI
 - Data diimpor ke Power BI untuk analisis lebih lanjut.
 - Visualisasi dibuat menggunakan berbagai jenis grafik seperti bar chart, line chart, dan peta (map visual).
